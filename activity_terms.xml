@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Terms">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="411dp"
+        android:layout_height="162dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="431dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text=" BMW Terms and Conditions :  This rate is excluding Fuel cost. Fuel cost will be charged per kilometer wise. Approximate Fuel Cost: 10 Taka/Kilometer ( if run by CNG); 15 Taka/Kilometer (if run by Octane). Driver outstation charge 1000 Taka per day (Breakfast, Lunch, Dinner &amp; Hotel bill) This rate is for first 10 hours service. Each additional hour will be charged 200 Taka. Renter has to pay all Tolls/Parking Charges."
+        android:textColor="#0E0E0E"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="337dp"
+        android:layout_height="312dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bm"
+        tools:layout_editor_absoluteY="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginBottom="84dp"
+        android:text="Book"
+        app:backgroundTint="#F11414" />
+</RelativeLayout>

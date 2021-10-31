@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tr">
+
+
+    <Button
+        android:id="@+id/Book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="143dp"
+        android:text="Book" />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="298dp"
+        android:layout_height="211dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginBottom="217dp"
+        android:text="BMW Terms and Conditions :  This rate is excluding Fuel cost. Fuel cost will be charged per kilometer wise. Approximate Fuel Cost: 10 Taka/Kilometer ( if run by CNG); 15 Taka/Kilometer (if run by Octane). Driver outstation charge 1000 Taka per day (Breakfast, Lunch, Dinner &amp; Hotel bill) This rate is for first 10 hours service. Each additional hour will be charged 200 Taka. Renter has to pay all Tolls/Parking Charges."
+        android:textColor="#070707" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="101dp"
+        app:srcCompat="@drawable/cadf" />
+</RelativeLayout>
